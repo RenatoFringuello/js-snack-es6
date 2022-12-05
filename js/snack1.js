@@ -2,7 +2,6 @@
 // 2.** Stampare a schermo attraverso un ciclo `for-in` tutte le proprietà dell'oggetto.
 // 3. Creare un array di oggetti di studenti (ossìa oggetti con le proprietà sopra descritte) e mostriamoli.
 
-
 const student1 = {
     sName : 'Pippo',
     surname : 'Dumfries',
@@ -26,4 +25,3 @@ for(let studentDesc in student1){
 for (let i = 0; i < class1.length; i++) {
     console.log(class1[i]);
 }
-
