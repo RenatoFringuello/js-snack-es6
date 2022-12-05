@@ -7,7 +7,7 @@ const cars = [
     {
         marca : 'bmw',
         modello : 'serie 3',
-        alimentazione : 'diesel'
+        alimentazione : 'metano'
     },
     {
         marca : 'bmw',
