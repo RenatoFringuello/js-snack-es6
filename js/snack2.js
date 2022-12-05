@@ -66,12 +66,6 @@ for (let i = 0; i < cars.length; i++) {
     }
 }
 
-for (let i = 0; i < benzinaCars.length; i++) {
-    console.log('benzina',benzinaCars[i]);
-}
-for (let i = 0; i < dieselCars.length; i++) {
-    console.log('diesel',dieselCars[i]);
-}
-for (let i = 0; i < otherCars.length; i++) {
-    console.log('other',otherCars[i]);
-}
+console.log('benzina',benzinaCars);
+console.log('diesel',dieselCars);
+console.log('other',otherCars);
