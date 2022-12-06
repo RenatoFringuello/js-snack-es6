@@ -7,16 +7,16 @@ Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e 
  */
 
 const persone =  [
-    { firstname: 'leone', lastname: 'poddighe', age: 20 },
+    { firstname: 'jessico', lastname: 'calcetto', age: 20 },
     { firstname: 'lello', lastname: 'sanna', age: 23 },
     { firstname: 'andrea', lastname: 'berti', age: 30 },
     { firstname: 'ciccio', lastname: 'pasticcio', age: 26 },
-    { firstname: 'carmelo', lastname: 'unali', age: 16 },
-    { firstname: 'leone', lastname: 'poddighe', age: 20 },
-    { firstname: 'lello', lastname: 'sanna', age: 23 },
+    { firstname: 'carmela', lastname: 'unali', age: 16 },
+    { firstname: 'annalauro', lastname: 'padel', age: 21 },
+    { firstname: 'pietro', lastname: 'sanna', age: 13 },
     { firstname: 'andrea', lastname: 'berti', age: 30 },
-    { firstname: 'ciccio', lastname: 'pasticcio', age: 26 },
-    { firstname: 'carmelo', lastname: 'unali', age: 16 },
+    { firstname: 'paolo', lastname: 'pasticcio', age: 26 },
+    { firstname: 'uga', lastname: 'estetista', age: 36 },
 ];
 
 const diverList = persone.map((persona) => {
