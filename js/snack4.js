@@ -8,7 +8,7 @@
 //   { nome: 'gallina', famiglia: 'fasianidi', classe: 'uccelli' },
 // ]
 
-// Crea un nuovo array con la lista dei mammiferi.
+// Crea un nuovo array con la lista dei animali.
 // Bonus 1 : trasforma ogni valore di ogni animale in tutto maiuscolo tranne la prima lettera
 // , tipo // leone => lEONE, canidi => cANIDI
 
@@ -26,4 +26,4 @@ const newAnimali = animali.map((animale) => {
     animale.classe = animale.classe[0].toLowerCase() + animale.classe.substring(1, animale.classe.length).toUpperCase();
     return animale;
 });
-console.log(newAnimali);
+console.log(newAnimali, animali);
